@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "border-collapse"
   ],
   "css-border-collapse": {
     "type": "git",
