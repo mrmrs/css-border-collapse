@@ -23,19 +23,19 @@ or download the css on github and include in your project.
   .bc-separate { border-collapse: separate; }
   .bc-i {        border-collapse: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .bc-collapse-ns { border-collapse: collapse; }
   .bc-separate-ns { border-collapse: separate; }
   .bc-i-ns {        border-collapse: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .bc-collapse-m { border-collapse: collapse; }
   .bc-separate-m { border-collapse: separate; }
   .bc-i-m {        border-collapse: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .bc-collapse-l {  border-collapse: collapse; }
   .bc-separate-l {  border-collapse: separate; }
   .bc-i-l {         border-collapse: inherit; }
