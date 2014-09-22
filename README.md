@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-border-collapse)
 ## File Size
 
 743B border-collapse.css
-579B border-collapse.min.css
+579B border-collapse.min.css 
+167B minified and gzipped
 
 ## The Code
 ```
