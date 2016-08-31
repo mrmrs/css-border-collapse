@@ -1,7 +1,7 @@
 {
   "name": "css-border-collapse",
   "style": "border-collapse.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-border-collapse",
   "description": "Css module of single purpose classes for border collapse",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-border-collapse.css > css/css-border-collapse.css && tachyons src/css-border-collapse.css --minify > css/css-border-collapse.min.css && tachyons src/css-border-collapse.css --generate-docs --package=../../package.json > readme.md"
