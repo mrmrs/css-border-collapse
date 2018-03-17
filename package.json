@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.8"
+    "tachyons-cli": "^1.3.0"
   },
   "scripts": {
     "start": "tachyons src/css-border-collapse.css > css/css-border-collapse.css && tachyons src/css-border-collapse.css --minify > css/css-border-collapse.min.css && tachyons src/css-border-collapse.css --generate-docs --package=../../package.json > readme.md"
