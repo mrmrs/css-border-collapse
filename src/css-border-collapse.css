@@ -7,9 +7,9 @@
   .bc-i {        border-collapse: inherit; }
 
 @media screen and (min-width: 48em) {
-  .bc-collapse-ns { border-collapse: collapse; }
-  .bc-separate-ns { border-collapse: separate; }
-  .bc-i-ns {        border-collapse: inherit; }
+  .bc-collapse-s { border-collapse: collapse; }
+  .bc-separate-s { border-collapse: separate; }
+  .bc-i-s {        border-collapse: inherit; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
