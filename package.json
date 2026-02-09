@@ -1,38 +1,44 @@
 {
   "name": "css-border-collapse",
-  "style": "border-collapse.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-border-collapse",
-  "description": "Css module of single purpose classes for border collapse",
+  "version": "2.0.0",
+  "description": "Functional CSS for border-collapse",
+  "style": "dist/border-collapse.css",
+  "main": "dist/border-collapse.css",
+  "exports": {
+    ".": "./dist/border-collapse.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "border-collapse"
+    "border-collapse",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-border-collapse": {
+  "homepage": "https://github.com/mrmrs/css-border-collapse",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-border-collapse.git"
+    "url": "https://github.com/mrmrs/css-border-collapse.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-border-collapse/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-border-collapse/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
