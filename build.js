@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { transform } = require('lightningcss');
 
-const srcFile = path.join(__dirname, 'src', 'css-border-collapse.css');
+const srcFile = path.join(__dirname, 'src', 'border-collapse.css');
 const distDir = path.join(__dirname, 'dist');
 
 // Read source
@@ -15,22 +15,22 @@ if (!fs.existsSync(distDir)) {
 
 // Unminified — just normalize formatting
 const { code: unminified } = transform({
-  filename: 'css-border-collapse.css',
+  filename: 'border-collapse.css',
   code: Buffer.from(source),
   minify: false,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-border-collapse.css'), unminified);
+fs.writeFileSync(path.join(distDir, 'border-collapse.css'), unminified);
 
 // Minified
 const { code: minified } = transform({
-  filename: 'css-border-collapse.css',
+  filename: 'border-collapse.css',
   code: Buffer.from(source),
   minify: true,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-border-collapse.min.css'), minified);
+fs.writeFileSync(path.join(distDir, 'border-collapse.min.css'), minified);
 
 console.log('Build complete:');
-console.log(`  dist/css-border-collapse.css     ${unminified.length} bytes`);
-console.log(`  dist/css-border-collapse.min.css ${minified.length} bytes`);
+console.log(`  dist/border-collapse.css     ${unminified.length} bytes`);
+console.log(`  dist/border-collapse.min.css ${minified.length} bytes`);
