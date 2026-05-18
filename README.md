@@ -6,8 +6,8 @@ Functional CSS for border-collapse
 
 | File | Size |
 |------|------|
-| `dist/border-collapse.css` | 825 bytes |
-| `dist/border-collapse.min.css` | 649 bytes (156 Gzipped) |
+| `dist/border-collapse.css` | 717 bytes |
+| `dist/border-collapse.min.css` | 541 bytes (154 Gzipped) |
 
 ## Install
 
@@ -39,18 +39,18 @@ npm install css-border-collapse
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.border-collapse` | `border-collapse: collapse;` |
-| `.border-separate` | `border-collapse: separate;` |
-| `.border-collapse-inherit` | `border-collapse: inherit;` |
-| `.border-collapse-s` | `border-collapse: collapse;` |
-| `.border-separate-s` | `border-collapse: separate;` |
-| `.border-collapse-inherit-s` | `border-collapse: inherit;` |
-| `.border-collapse-m` | `border-collapse: collapse;` |
-| `.border-separate-m` | `border-collapse: separate;` |
-| `.border-collapse-inherit-m` | `border-collapse: inherit;` |
-| `.border-collapse-l` | `border-collapse: collapse;` |
-| `.border-separate-l` | `border-collapse: separate;` |
-| `.border-collapse-inherit-l` | `border-collapse: inherit;` |
+| `.bc-collapse` | `border-collapse: collapse;` |
+| `.bc-separate` | `border-collapse: separate;` |
+| `.bc-i` | `border-collapse: inherit;` |
+| `.bc-collapse-s` | `border-collapse: collapse;` |
+| `.bc-separate-s` | `border-collapse: separate;` |
+| `.bc-i-s` | `border-collapse: inherit;` |
+| `.bc-collapse-m` | `border-collapse: collapse;` |
+| `.bc-separate-m` | `border-collapse: separate;` |
+| `.bc-i-m` | `border-collapse: inherit;` |
+| `.bc-collapse-l` | `border-collapse: collapse;` |
+| `.bc-separate-l` | `border-collapse: separate;` |
+| `.bc-i-l` | `border-collapse: inherit;` |
 
 ### Responsive
 
@@ -62,7 +62,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.border-collapse-m` applies the property at the medium breakpoint and above.
+Example: `.bc-collapse-m` applies the property at the medium breakpoint and above.
 
 ## Building
 

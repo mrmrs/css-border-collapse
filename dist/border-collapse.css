@@ -1,53 +1,53 @@
-.border-collapse {
+.bc-collapse {
   border-collapse: collapse;
 }
 
-.border-separate {
+.bc-separate {
   border-collapse: separate;
 }
 
-.border-collapse-inherit {
+.bc-i {
   border-collapse: inherit;
 }
 
 @media screen and (width >= 32em) {
-  .border-collapse-s {
+  .bc-collapse-s {
     border-collapse: collapse;
   }
 
-  .border-separate-s {
+  .bc-separate-s {
     border-collapse: separate;
   }
 
-  .border-collapse-inherit-s {
+  .bc-i-s {
     border-collapse: inherit;
   }
 }
 
 @media screen and (width >= 48em) {
-  .border-collapse-m {
+  .bc-collapse-m {
     border-collapse: collapse;
   }
 
-  .border-separate-m {
+  .bc-separate-m {
     border-collapse: separate;
   }
 
-  .border-collapse-inherit-m {
+  .bc-i-m {
     border-collapse: inherit;
   }
 }
 
 @media screen and (width >= 96em) {
-  .border-collapse-l {
+  .bc-collapse-l {
     border-collapse: collapse;
   }
 
-  .border-separate-l {
+  .bc-separate-l {
     border-collapse: separate;
   }
 
-  .border-collapse-inherit-l {
+  .bc-i-l {
     border-collapse: inherit;
   }
 }
